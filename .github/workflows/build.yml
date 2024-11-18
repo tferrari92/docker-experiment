@@ -30,7 +30,7 @@ jobs:
         with:
           # context: .
           # file: ${{ inputs.dockerfile }}
-          # tags: ${{ env.IMAGE_TAGS }}
+          tags: tferrari92/alpine-amd64-x84:latest
           push: true
           # ssh: default
           platforms: linux/amd64
