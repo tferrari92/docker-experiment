@@ -7,7 +7,7 @@ jobs:
   build-push-image:
     name: Build and Push Image
     runs-on: ubuntu-latest
-    
+    steps:
       - name: Checkout
         uses: actions/checkout@v3
 
